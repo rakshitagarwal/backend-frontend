@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700');
+@import './_01_mixins.scss';
+@import './_02_variables';
+@import './_03_core.scss';
+@import './_04_plugins.scss';
+@import './_05_views.scss';
+
+/** your custom css code **/
+/* 
+html {
+    background-color: $theme-color-1 !important;
+}
+*/
+.form-control{
+    height: 40px;
+}
+.gap-40{
+    gap: 40px;
+}
+.field-error{
+    color: red;
+}
+.logotext{
+    font-weight: bolder;
+    font-size: 22px;
+}
+.logotbd{
+    width: 100px;
+}
+.min-max-150{
+    max-width: 150px;
+    min-width: 150px;
+}
+.custom-image-heading{
+    min-width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.font-16-bolder{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.font-20{
+    font-size: 24px;
+}
+.gap-20{
+    gap: 13px;
+}
+.text-align-center{
+    text-align: center;
+}
+.min-max-100 {
+    max-width: 100px;
+    min-width: 100px;}
+.custom-table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+.custom-table td,.custom-table th {
+    min-width: 107px;
+    max-width: 150px;
+}
+.custom-table thead{
+    height: 57px;
+    font-weight: bolder;
+}
+.custom-table td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-width: 0.01px; 
+}
+.overflow-x{
+    // cursor: pointer;
+    overflow-x: scroll;
+}
+.custom-table thead, .custom-table tbody{
+    text-align: center;
+}
+.custom-table tbody img{
+    height: 80px !important;
+}
+.max-width-75{
+    max-width: 75px;
+}
+.lighttheme{
+    color: black !important;
+}
+.lighttheme tr{
+    background-color: transparent;
+}
+.darktheme tr{
+    background-color: transparent;
+}
+.lighttheme td:last-child{
+    border-color: white;
+}
+.lighttheme td:first-child{
+    border-color: transparent;
+}
+
+.darktheme td:last-child{
+    border-color: transparent;
+}
+.darktheme td:first-child{
+    border-color: transparent;
+}
+.darktheme td, .darktheme th {
+    background-color: #242224;
+}
+.text-align-end{
+    text-align: end !important;
+}
+.lighttheme td,.lighttheme th{
+    background-color: white;
+}
+.lighttheme td:first-child,.darktheme td:first-child{
+    background-color: transparent;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.custom-table tr {
+    min-height: 82px;
+    height: 82px;
+}
+.custom-table td:last-child, .custom-table th:last-child{
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    border-top-left-radius: initial !important;
+    border-bottom-left-radius: initial !important;
+}
+.custom-table th:first-child{
+    border-top-left-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+    border-top-right-radius: initial !important;
+    border-bottom-right-radius: initial !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.overflow-x::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: transparent; /* or add it to the track */
+  }
+  .overflow-x::-webkit-scrollbar:hover{
+    background-color: transparent;
+  }
+  /* Add a thumb */
+  .overflow-x::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 20px;
+  }
+  .overflow-x::-webkit-scrollbar-thumb:hover{
+    background: transparent;
+  }
+
+.nodatafound{
+font-size: 19px;
+font-weight: bolder;
+}
+.bgDarkcolorwhite{
+    background-color: #242224 !important;
+    color: white;
+}
+.bgLightcolorblack{
+    background-color: white !important;
+    color: black;
+}

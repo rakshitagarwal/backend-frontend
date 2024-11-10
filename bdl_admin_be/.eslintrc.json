@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+        "no-empty": "warn",
+        "use-isnan": "error",
+        "no-else-return": "warn",
+        "eqeqeq": "error",
+        "@typescript-eslint/no-unused-vars": [
+            "error",
+            { "argsIgnorePattern": "^_" }
+        ],
+        "node/no-unsupported-features/es-syntax": "off"
+    },
+    "ignorePatterns": ["dist"]
+}
